@@ -1,8 +1,8 @@
 'use strict';
 
-describe('chainer function', () => {
-  const { chainer } = require('./chainer');
+const { chainer } = require('./chainer');
 
+describe('chainer function', () => {
   it('should apply all functions in order', () => {
     const f1 = (x) => x + 1;
     const f2 = (x) => x * 3;
